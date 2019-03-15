@@ -1,2 +1,6 @@
-# coding-resources
-A repository that contains useful information on various editors, debugging (GDB), and other programming resources.
+# Coding Resources
+
+This Repository contains useful information on debugging, text editors,
+
+
+
