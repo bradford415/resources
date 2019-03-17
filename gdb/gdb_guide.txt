@@ -18,7 +18,7 @@ Breakpoints:
 
 5) delete break point with: del X       ** X represents the breakpoint number, breakpoint number found with 'info break'**
 
-Show Variable Values:   
+Show Variable Values and Stepping Through Code:   
 1) show variable value once with: print variableName
 
 2) show variable value with each step: display variableName
@@ -27,11 +27,11 @@ Show Variable Values:
 
 4) go to next line with: n
 
-9) continue to next break point with: c
+5) continue to next break point with: c
 
-10) repeat previous command with: enter ** press the enter key, do not type enter **
+6) repeat previous command with: enter ** press the enter key, do not type enter **
 
-11) restart debugger from the beginning with: r
+7) restart debugger from the beginning with: r
 
-12) quit the debugger with: q
+8) quit the debugger with: q
 
