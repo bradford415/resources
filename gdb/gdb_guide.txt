@@ -18,6 +18,8 @@ Breakpoints:
 
 5) delete break point with: del X       ** X represents the breakpoint number, breakpoint number found with 'info break'**
 
+6) To set a break point in a different file you are currently in, use: b FileName.c:X  ** X represents the line number **
+
 Show Variable Values and Stepping Through Code:   
 1) show variable value once with: print variableName
 
@@ -34,4 +36,11 @@ Show Variable Values and Stepping Through Code:
 7) restart debugger from the beginning with: r
 
 8) quit the debugger with: q
+
+Stack:
+1) view stack with: bt
+
+2) once viewing the stack, move up the stack with: up
+
+
 
