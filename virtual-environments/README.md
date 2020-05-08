@@ -1,7 +1,7 @@
 ## Virtual Environments
 Virtual environments are used to seperate packages between python projects. This ensures that your project uses only the packages it needs and unneccesary packages will not be installed to the entire system. The 2 main virtual environment modules I know of are virtualenv, and conda environments
 
-## virtualenv - venv
+## virtualenv (venv)
 -   The recommended virtual environment in the python documents
 -   Newer and supported more by python
 -   Only creates an environment for the Python version of your system
