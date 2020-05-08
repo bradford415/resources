@@ -13,5 +13,6 @@ Virtual environments are used to seperate packages between python projects. This
 -   User can specify the version of Python for their virtual environment
     - can use Python 3.6 for Tensorflow
     - Tensorflow does not yet support > 3.6
--   Anaconda is a very big download
+-   Anaconda is big download
+    - ~3GB to downloadand install
 -   [Click here for documentation](https://docs.conda.io/projects/conda/en/latest/index.html)
