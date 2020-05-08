@@ -1,17 +1,17 @@
 ## Virtual Environments
-Virtual environments are used to seperate packages between python projects. This ensures that your project uses only the packages it needs and unneccesary packages will not be installed to the entire system. The 3 main virtual environment modules I know of are venv, virtualenv, and conda env
+Virtual environments are used to seperate packages between python projects. This ensures that your project uses only the packages it needs and unneccesary packages will not be installed to the entire system. The 2 main virtual environment modules I know of are virtualenv, and conda environments
 
-## virtualenv
--   Allows user to specify the version of python they wish to use
-    - Good for machine learning because the user can use python 3.6 and tensorflow (currently tensorflow does not support python 3.8)
-
-## venv
+## virtualenv - venv
 -   The recommended virtual environment in the python documents
 -   Newer and supported more by python
--   Good for projects that use the latest version
+-   Only creates an environment for the Python version of your system
     - User CANNOT specify the version of python they wish to use
+-   [Click here for documentation](https://virtualenv.pypa.io/en/latest/index.html)
 
 ## conda env
--   I do not know much about this but I believe you can do almost anything with it
--   uses the Anaconda Package Mangager to create the virtual environment
+-   Uses the Anaconda Package Mangager to create the virtual environment
+-   User can specify the version of Python for their virtual environment
+    - can use Python 3.6 for Tensorflow
+    - Tensorflow does not yet support > 3.6
 -   Anaconda is a very big download
+-   [Click here for documentation](https://docs.conda.io/projects/conda/en/latest/index.html)
