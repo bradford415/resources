@@ -16,3 +16,4 @@ Virtual environments are used to seperate packages between python projects. This
 -   Anaconda is big download
     - ~3GB to downloadand install
 -   [Click here for documentation](https://docs.conda.io/projects/conda/en/latest/index.html)
+-   [Setting up Anaconda in WSL](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd)
