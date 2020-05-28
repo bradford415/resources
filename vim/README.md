@@ -1,5 +1,5 @@
 ### vim
-vim is my in-terminal text editor of choice
+vim is my in-terminal text editor of choice. The .vimrc file sets the settings for the editor such as color and line numbers.
 
 ### Setting up .vimrc
 1.	Change to the home directory by typing ```cd```
