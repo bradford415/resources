@@ -7,7 +7,7 @@ GDB is mainly used for debugging the C language. Below are the commands I have u
 3. Run the program with the debugger attached with: run <arg1> <arg2>...
 
 ### Commands
-- set break point with: b <line_number>```
+- set break point with: '''b <line_number>```
 - set conditional break points with: ```b <line_number> if i == <number_of_loops>```
   - useful for big loop iterations,  MAKE SURE TO USE '==' NOT '=' 
 - set breakpoint of a function: ```b <function_name>```
