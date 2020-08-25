@@ -2,7 +2,7 @@
 GDB is mainly used for debugging the C language. Below are the commands I have used in C prograaming to help my debugging. Some of these are hard to come by when searching online.
 
 ### Start GDB
-1. Enable Debugging Compile With: gcc -g program.c
+1. To Enable Debugging, Compile Program With: gcc -g program.c
 2. To Start Debugging: gdb ./<executable_name>
 3. Run the program with the debugger attached with: run <arg1> <arg2>...
 
